@@ -1,6 +1,6 @@
 
 
-<img src="https://img.shields.io/badge/rabbithole-%F0%9F%A6%80%20rust-blueviolet"><img src="https://img.shields.io/github/last-commit/abelche/rabbithole" alt="last-commit" /><img src="https://img.shields.io/github/languages/top/abelche/rabbithole?color=yellow" alt="languages-top" /><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/abelche/rabbithole?color=green">
+<img src="https://img.shields.io/badge/rabbithole-%F0%9F%A6%80%20rust-blueviolet"><img src="https://img.shields.io/github/last-commit/abelche/rabbithole" alt="last-commit" /><img src="https://img.shields.io/github/languages/top/abelche/rabbithole?color=yellow" alt="languages-top" /><img alt="GitHub repo size" src="https://img.shields.io/github/languages/code-size/abelche/rabbithole?color=green">
 
 # 🦀 rabbothole 兔子洞
 
