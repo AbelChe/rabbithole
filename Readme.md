@@ -2,7 +2,7 @@
 
 <img src="https://img.shields.io/badge/rabbithole-%F0%9F%A6%80%20rust-blueviolet" />  <img src="https://img.shields.io/github/last-commit/abelche/rabbithole" alt="last-commit" />  <img src="https://img.shields.io/github/languages/top/abelche/rabbithole?color=yellow" alt="languages-top" />  <img alt="GitHub repo size" src="https://img.shields.io/github/languages/code-size/abelche/rabbithole?color=green">
 
-# 🦀 rabbothole 兔子洞
+# 🦀 rabbithole 兔子洞
 
 🦀一个完全使用Rust编写的代理池工具，从网络搜索socks5代理，检测可用性之后开启socks5代理服务。
 
