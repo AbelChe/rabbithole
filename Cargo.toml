@@ -1,0 +1,38 @@
+[package]
+name = "rabbithole"
+authors = ["AbelChe"]
+version = "1.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+base64 = "0.21.0"
+clap = { version = "4.1.6", features = ["derive"] }
+env_logger = "0.10.0"
+futures = "0.3.26"
+log = "0.4.17"
+rand = "0.8.5"
+reqwest = { version = "0.11.14", features = ["json", "socks", "cookies", "blocking"] }
+scraper = "0.14.0"
+serde_json = "1.0.93"
+serde_urlencoded = "0.7.1"
+structopt = "0.3.26"
+tokio = { version = "1.0", features = ["full"] }
+serde = "1.0.133"
+url = "2.3.1"
+percent-encoding = "2.2.0"
+fast-socks5 = { path = "./fast-socks5-1d7d592fc0", features = ["socks4"] }
+tokio-stream = "0.1.12"
+anyhow = "1.0.69"
+rayon = "1.6.1"
+
+
+[profile.release]
+lto = "fat"
+debug = 0
+debug-assertions = false
+overflow-checks = false
+opt-level = 'z'
+codegen-units = 1
+panic = "abort"
