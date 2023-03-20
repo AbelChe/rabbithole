@@ -106,7 +106,7 @@ Options:
 
 4. 增加导出文件功能，将搜索获取到的代理地址保存到文件中 `-o --output [filename]`
 
-5. ~~增加 `--delay-test-address [url(defult httpbin.org)]` 参数指定可用性检测地址，`--delay-test-timeout [time(default 5000ms)]`参数指定检测超时事件~~
+5. ~~增加 `--delay-test-address [url(defult httpbin.org)]` 参数指定可用性检测地址，`--delay-test-timeout [time(default 5000ms)]`参数指定检测超时时间~~
 
 6. 增加重连功能，当前请求的代理无法使用时候，再使用其他随机代理进行重连，可以使用 `--reconnect [times]` 指定次数
 
