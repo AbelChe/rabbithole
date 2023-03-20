@@ -2,17 +2,17 @@
 
 <img src="https://img.shields.io/badge/rabbithole-%F0%9F%A6%80%20rust-blueviolet" />  <img src="https://img.shields.io/github/last-commit/abelche/rabbithole" alt="last-commit" />  <img src="https://img.shields.io/github/languages/top/abelche/rabbithole?color=yellow" alt="languages-top" />  <img alt="GitHub repo size" src="https://img.shields.io/github/languages/code-size/abelche/rabbithole?color=green">
 
-# 🦀 rabbithole 兔子洞
+# 🦀 rabbithole
 
 [中文](./Readme.md)  |  [English](./Readme_en.md)
 
 
 
-🦀一个完全使用Rust编写的代理池工具，从网络搜索socks5代理，检测可用性之后开启socks5代理服务。
+🦀A proxy pool tool completely written in Rust, which searches for SOCKS5 proxies from the network, and after checking their availability, starts a SOCKS5 proxy service.
 
 
 
-易于使用
+Easy to use
 
 ```shell
 rabbithole -L socks5://user:pass@0.0.0.0:45678
@@ -20,14 +20,14 @@ rabbithole -L socks5://user:pass@0.0.0.0:45678
 
 
 
-# 🗃 数据来源说明
+# 🗃 Data source description
 
-1. fofa、360quake、zoomeye空间搜索引擎
-2. 互联网上公开的代理地址
+1. Spatial search engine, as fofa, 360quake, zoomeye
+2. Publicly available proxy addresses on the internet
 
 
 
-# 🌟 使用
+# 🌟 Usage
 
 ```
 $ rabbithole -h
@@ -91,22 +91,4 @@ Options:
 
 ![image-20230320144206346](resource/image-20230320144206346.png)
 
-
-
-
-# 🔨 TODO
-
-1. ~~**境**内外IP划分~~
-    1) ~~提供 `-z --zone [0(defult), 1, 2]` 参数划分为获取的代理是 所有 、 境内 还是 境外。这是给API搜索的时候提供筛选项~~
-    2) ~~在可用性检测的时候同时记录出口IP的位置，根据 `-z --zone [0(defult), 1, 2]` 参数指定的区域进行划分~~
-
-2. 增加API搜索的时效性
-
-3. 增加从文件获取代理地址的功能 `-f --file [filename]`
-
-4. 增加导出文件功能，将搜索获取到的代理地址保存到文件中 `-o --output [filename]`
-
-5. ~~增加 `--delay-test-address [url(defult httpbin.org)]` 参数指定可用性检测地址，`--delay-test-timeout [time(default 5000ms)]`参数指定检测超时事件~~
-
-6. 增加重连功能，当前请求的代理无法使用时候，再使用其他随机代理进行重连，可以使用 `--reconnect [times]` 指定次数
 
